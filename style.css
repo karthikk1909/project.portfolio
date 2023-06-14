@@ -1,0 +1,32 @@
+.gradient-background {
+    background: linear-gradient(300deg, rgb(54, 232, 167), rgb(145, 218, 234), #2d65e9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  .flex-container {
+    background-color: none;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .card-body >a{
+    
+     border: none;
+ }
+ .btn-primary{
+    background-color: #22b9ec;
+ }
